@@ -11393,7 +11393,7 @@ function QuantitySelector({
     /* @__PURE__ */ jsx$1(
       IconButton,
       {
-        imgUrl: "./minus.png",
+        imgUrl: "./react-shopping-cart/minus.png",
         onClick: handleMinusCount,
         dataTestid: "quantity-minus-button"
       }
@@ -11402,7 +11402,7 @@ function QuantitySelector({
     /* @__PURE__ */ jsx$1(
       IconButton,
       {
-        imgUrl: "./plus.png",
+        imgUrl: "./react-shopping-cart/plus.png",
         onClick: handleAddCount,
         dataTestid: "quantity-plus-button"
       }
@@ -11483,7 +11483,7 @@ const CheckBoxLayout = css`
     content: "";
     width: 12px;
     height: 12px;
-    background-image: url("./check.png");
+    background-image: url("./react-shopping-cart/check.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -11693,7 +11693,7 @@ function PaymentSummary({ price }) {
   const deliveryFee = 1e5 <= price ? 0 : 3e3;
   return /* @__PURE__ */ jsxs("div", { css: paymentSummaryLayout, children: [
     /* @__PURE__ */ jsxs("div", { css: deliveryInfoBox, children: [
-      /* @__PURE__ */ jsx$1("img", { src: "./info.png", css: imgLayout }),
+      /* @__PURE__ */ jsx$1("img", { src: "./react-shopping-cart/info.png", css: imgLayout }),
       /* @__PURE__ */ jsx$1("p", { css: deliveryInfo, children: "총 주문 금액이 100,000원 이상일 경우 무료 배송됩니다." })
     ] }),
     /* @__PURE__ */ jsx$1(Line, {}),
